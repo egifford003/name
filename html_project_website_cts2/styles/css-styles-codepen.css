@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+.middle-section > .links-wrapper > .links div {
+    color: darkgrey;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.middle-section > .links-wrapper > .links i {
+    color: darkgrey;
+    font-size: 0.9em;
+}
+
+.middle-section > .links-wrapper > .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+}
+
+
+.top-nav-bar > .middle-section > .links-wrapper > .links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    gap: 10px;
+}
+
+.top-nav-bar-wrapper > .top-nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+.top-nav-bar > .logo-wrapper > .logo img {
+    width: 140px;
+    height: 25px;
+}
+
+.top-nav-bar > .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.middle-section { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.middle-section > .explore {
+    color: #f7e483;
+    padding-bottom: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.btn-section > .btns-wrapper button {
+    border: #373940;
+    background-color: #373940;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 900;
+}
+
+
+.btn-section > .btns-wrapper button i {
+    color: #49c876;
+    font-size: 1.3em;
+}
+
+.btn-section > .btns-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-section > .btns-wrapper > .search-section i {
+    color: #7b7e8b;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.btn-section > .btns-wrapper button:nth-child(3) {
+    width: 70px;
+    height: 40px;
+    letter-spacing: -1px;
+    margin-left: 10px;
+}
+
+.btn-section > .btns-wrapper button:nth-child(5) {
+    width: 80px;
+    height: 40px;
+    letter-spacing: -1px;
+}
+
+
+/* spacers */
+
+
+.spacer10 {
+    width: 10px;
+}
+
+.spacer500 {
+    width: 500px;
+}
+
+
+/* page content */
+
+.page-content-wrapper {
+    background-color: #272830;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content-wrapper > .top-page-content {
+    padding-top: 20px;
+    display: flex;
+}
+
+.page-content-wrapper > .top-page-content > .left-section {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+/* Top paragraph */
+
+.page-content-wrapper > .top-page-content > .left-section > .top-paragraph {
+    width: 500px;
+}
+
+.page-content-wrapper > .top-page-content > .left-section > .top-paragraph p {
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.page-content-wrapper > .top-page-content > .left-section > .top-paragraph i {
+    transform: scaleX(-1) rotate(45deg);
+    color: #ffd05d;
+}
+
+/* Bottom paragraph */
+
+.page-content-wrapper > .top-page-content > .left-section > .bottom-paragraph {
+    width: 420px;
+}
+
+.page-content-wrapper > .top-page-content > .left-section > .bottom-paragraph p {
+    color: #b5b5b5;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+/* Button Section */
+
+.page-content-wrapper > .top-page-content > .left-section > .buttons {
+    display: flex;
+    padding-top: 10px;
+}
+
+.page-content-wrapper > .top-page-content > .left-section > .buttons > .left-button button {
+    background-color: #4bce79;
+    border: #4bce79;
+    height: 50px;
+    border-radius: 3px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.page-content-wrapper > .top-page-content > .left-section > .buttons > .right-button button {
+    background-color: #111111;
+    border: #111111;
+    color: #edffff;
+    border-radius: 3px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+
+/* right section (image + text at top) */
+
+
+.right-section-wrapper > .right-section > .image-wrapper > .image img {
+    width: 480px;
+    height: 380px;
+}
+
+.right-section-wrapper > .right-section > .image-wrapper {
+    padding-top: 10px;
+}
+
+.right-section-wrapper > .right-section > .what-we-do-wrapper > .what-we-do h1 {
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    left: 10px;
+}
+
+.right-section-wrapper > .right-section > .what-we-do-wrapper > .what-we-do h1 b {
+    color: #72c8d8;
+}
+
+.right-section-wrapper > .right-section { 
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+
+/* CodePen for section */
+
+
+.codepen-for-section > .button button {
+    background-color: #36383f;
+    border: none;
+    border: 2px solid  #58595c;
+    border-left: none;
+    color: #fefefe;
+    width: 265px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.codepen-for-section > .button button b {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.codepen-for-section {
+    display: flex;
+    height: 630px;
+    background-color: #191a1d;
+}
